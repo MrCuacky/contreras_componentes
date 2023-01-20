@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.links{
+height: 300px;
+width: 50%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.links #utd,#git,#twitter{
+  background-color: #ccc;
+  transition: transform 0.5s ease;
+}
+
+.links #utd,#git,#twitter:hover {
+  transform: scale(1.2); 
+}
